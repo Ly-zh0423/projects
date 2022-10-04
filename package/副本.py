@@ -54,11 +54,11 @@ class Easy:
 
         headers = {
         'User-Agent' : random.choice(USER_AGENTS),
-        'Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+        }
+        """'Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
         'Accept-language':'zh-CN,zh;q=0.9',
         'Accept-Encoding':'gzip, deflate,br',
-        'Connection':'keep-alive',
-        }
+        'Connection':'keep-alive',"""
         return headers    
 
     def pip_pack(self, name):
